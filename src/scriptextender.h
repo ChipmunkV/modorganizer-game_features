@@ -1,7 +1,10 @@
 #ifndef SCRIPTEXTENDER
 #define SCRIPTEXTENDER
 
-#include <windows.h>
+#include <cstdint>
+//#include <windows.h>
+
+using WORD = uint16_t;
 
 class QString;
 class QStringList;
